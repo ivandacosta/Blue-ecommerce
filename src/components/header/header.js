@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css"
-import cart from "./cart.png";
+import CartWidget from "../CartWidget/CartWidget";
 
 
 const Header = () => {
@@ -18,9 +18,7 @@ const Header = () => {
                 </ul>
             </nav>
 
-            <div className="Cart">
-                <img src={cart} alt="imagen"/>
-            </div>
+            <CartWidget/>
         </header>
     )
 }

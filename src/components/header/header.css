@@ -22,6 +22,10 @@ header ul li{
     width: 50px;
 }
 
+.Cart h2{
+    margin-bottom: 10px;
+}
+
 a{
     color: #fff;
     text-decoration: none;
